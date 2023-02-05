@@ -1,0 +1,254 @@
+/* Global */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.nav-container {
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: black;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo img {
+  margin-right: 12px;
+}
+
+.logo h1 {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 2.5rem;
+  color: white;
+}
+
+.logo span {
+  color: #5de1e6;
+}
+
+.logo-sub {
+  font-family: "Work Sans", sans-serif;
+  margin-top: 10px;
+  margin-left: 0.7rem;
+  color: white;
+}
+
+.conference-text {
+  color: #b7b7b7;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.logo-sub p {
+  font-size: 14px;
+  font-weight: 900;
+}
+.letter-spacing-sm {
+  letter-spacing: 2px;
+}
+
+.letter-spacing-md {
+  letter-spacing: 4px;
+}
+
+/* Nav-Links */
+.nav-links-container {
+  display: flex;
+  gap: 30px;
+  margin-left: 6rem;
+}
+
+.nav-links-container li a {
+  color: #c6c4c4;
+  font-family: "poppins";
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+.nav-links-container li a:hover {
+  color: white;
+}
+
+.material-symbols-sharp a {
+  color: white;
+  cursor: pointer;
+}
+
+/* social icons */
+.social-icons-container {
+  display: flex;
+  gap: 1rem;
+  margin-left: 4rem;
+  align-items: center;
+}
+
+.singleIcon a {
+  color: #f1f1f1;
+}
+
+.hamburger span {
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+}
+
+
+/* Schedule Container */
+.schedule-container{
+   padding: 2rem 4rem;  
+   font-family: poppins;
+}
+
+.schedule-header h2{
+   font-size:2.4rem;
+
+}
+
+.schedule-header p{
+  font-size: 1.2rem;
+  width: 80%;
+  margin-top: 4px;
+}
+
+/*Event List container */
+
+#conference-list{
+ margin-top: 2rem;
+ display: grid;
+ grid-template-columns: repeat(2, 50%);
+ row-gap: 4rem;
+}
+
+/* Conference or Event Card */
+.eventCard{
+  max-width: 500px;
+  min-height: 280px;
+  background: linear-gradient(144.39deg, #FFFFFF -278.56%, #6D6D6D -78.47%, #11101D 91.61%);
+  backdrop-filter: blur(5px);
+  border-radius: 0% 45% 0% 45% / 0% 200% 0% 200%;
+  padding: 2rem;
+  color: white;
+  box-shadow: -6px 1px 10px rgba(0,0,0,.4);
+}
+
+.eventCard img{
+  width: 1.8rem;
+}
+
+.eventName{
+  margin-bottom: 6px;
+  font-size: 2rem;
+}
+
+.eventDesc{
+  text-align: justify;
+  width: 90%;
+
+}
+
+
+
+/* Venue , Date , Time */
+.flex{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.flex span{
+  font-weight: bolder;
+  font-size: 1rem;
+}
+
+.flex p{
+  font-size: 14px;
+  margin-top: 3px;
+}
+
+
+.venue{
+ margin: 12px;
+ 
+}
+
+.time-date-container{
+  margin-left: 1.5rem;
+}
+
+.time{
+  margin-left: 8rem;
+}
+
+
+/* Card Bottom */
+.cardBottom-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Speaker section */
+.speaker{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+  margin-left: 3rem;
+}
+
+.speaker img{
+  border-radius: 100%;
+  width: 3rem;
+}
+
+.speaker-text h4{
+  font-size: 18px;
+}
+
+.speaker-text p{
+  font-size: 14px;  
+}
+
+
+/* Register Button */
+.register-button {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  justify-content: center;
+  width: 140px;
+  color: white;
+  font-weight: bold;
+  font-family: poppins;
+  height: 42px;
+  background: linear-gradient(
+    157.81deg,
+    #def9fa -43.27%,
+    #bef3f5 -21.24%,
+    #9dedf0 12.19%,
+    #7de7eb 29.82%,
+    #5ce1e6 51.94%,
+    #33bbcf 90.29%
+  );
+  border-radius: 10px;
+}
+
+
